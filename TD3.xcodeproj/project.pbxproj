@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D97DB9A1E2E19F300E58FAA /* MyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97DB991E2E19F300E58FAA /* MyWebViewController.swift */; };
 		4D9B551E1E2CF5E500D97C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B551D1E2CF5E500D97C75 /* AppDelegate.swift */; };
 		4D9B55201E2CF5E500D97C75 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B551F1E2CF5E500D97C75 /* FirstViewController.swift */; };
 		4D9B55221E2CF5E500D97C75 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B55211E2CF5E500D97C75 /* SecondViewController.swift */; };
@@ -15,6 +16,8 @@
 		4D9B552A1E2CF5E500D97C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B55281E2CF5E500D97C75 /* LaunchScreen.storyboard */; };
 		4D9B55351E2CF5E500D97C75 /* TD3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B55341E2CF5E500D97C75 /* TD3Tests.swift */; };
 		4D9B55401E2CF5E500D97C75 /* TD3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B553F1E2CF5E500D97C75 /* TD3UITests.swift */; };
+		4D9B554E1E2CF6AA00D97C75 /* RemoteImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B554D1E2CF6AA00D97C75 /* RemoteImageController.swift */; };
+		4D9B55501E2D181900D97C75 /* WebsitesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B554F1E2D181900D97C75 /* WebsitesTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D97DB991E2E19F300E58FAA /* MyWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebViewController.swift; sourceTree = "<group>"; };
 		4D9B551A1E2CF5E500D97C75 /* TD3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9B551D1E2CF5E500D97C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D9B551F1E2CF5E500D97C75 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		4D9B553B1E2CF5E500D97C75 /* TD3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TD3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9B553F1E2CF5E500D97C75 /* TD3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TD3UITests.swift; sourceTree = "<group>"; };
 		4D9B55411E2CF5E500D97C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9B554D1E2CF6AA00D97C75 /* RemoteImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImageController.swift; sourceTree = "<group>"; };
+		4D9B554F1E2D181900D97C75 /* WebsitesTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsitesTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				4D9B55261E2CF5E500D97C75 /* Assets.xcassets */,
 				4D9B55281E2CF5E500D97C75 /* LaunchScreen.storyboard */,
 				4D9B552B1E2CF5E500D97C75 /* Info.plist */,
+				4D9B554D1E2CF6AA00D97C75 /* RemoteImageController.swift */,
+				4D9B554F1E2D181900D97C75 /* WebsitesTableTableViewController.swift */,
+				4D97DB991E2E19F300E58FAA /* MyWebViewController.swift */,
 			);
 			path = TD3;
 			sourceTree = "<group>";
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9B55221E2CF5E500D97C75 /* SecondViewController.swift in Sources */,
+				4D97DB9A1E2E19F300E58FAA /* MyWebViewController.swift in Sources */,
+				4D9B554E1E2CF6AA00D97C75 /* RemoteImageController.swift in Sources */,
 				4D9B551E1E2CF5E500D97C75 /* AppDelegate.swift in Sources */,
 				4D9B55201E2CF5E500D97C75 /* FirstViewController.swift in Sources */,
+				4D9B55501E2D181900D97C75 /* WebsitesTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +521,7 @@
 				4D9B55461E2CF5E500D97C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9B55471E2CF5E500D97C75 /* Build configuration list for PBXNativeTarget "TD3Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				4D9B55491E2CF5E500D97C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9B554A1E2CF5E500D97C75 /* Build configuration list for PBXNativeTarget "TD3UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				4D9B554C1E2CF5E500D97C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
