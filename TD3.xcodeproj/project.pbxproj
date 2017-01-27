@@ -18,6 +18,10 @@
 		4D9B55401E2CF5E500D97C75 /* TD3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B553F1E2CF5E500D97C75 /* TD3UITests.swift */; };
 		4D9B554E1E2CF6AA00D97C75 /* RemoteImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B554D1E2CF6AA00D97C75 /* RemoteImageController.swift */; };
 		4D9B55501E2D181900D97C75 /* WebsitesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B554F1E2D181900D97C75 /* WebsitesTableTableViewController.swift */; };
+		4DC06F001E363554008D74BD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4DC06EFF1E363554008D74BD /* Podfile */; };
+		4DF846701E363AFE00BBF6E9 /* PartiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8466F1E363AFE00BBF6E9 /* PartiesTableViewController.swift */; };
+		4DF846721E3640D400BBF6E9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF846711E3640D400BBF6E9 /* Event.swift */; };
+		C0BFAA9C8B805FDBA26CE4BA /* Pods_TD3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26741B0271381A9B33604F6A /* Pods_TD3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		172F5EAD3295B2159CB55F64 /* Pods-TD3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TD3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TD3/Pods-TD3.debug.xcconfig"; sourceTree = "<group>"; };
+		26741B0271381A9B33604F6A /* Pods_TD3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TD3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97DB991E2E19F300E58FAA /* MyWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebViewController.swift; sourceTree = "<group>"; };
 		4D9B551A1E2CF5E500D97C75 /* TD3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9B551D1E2CF5E500D97C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +61,10 @@
 		4D9B55411E2CF5E500D97C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9B554D1E2CF6AA00D97C75 /* RemoteImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImageController.swift; sourceTree = "<group>"; };
 		4D9B554F1E2D181900D97C75 /* WebsitesTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsitesTableTableViewController.swift; sourceTree = "<group>"; };
+		4DC06EFF1E363554008D74BD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4DF8466F1E363AFE00BBF6E9 /* PartiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartiesTableViewController.swift; sourceTree = "<group>"; };
+		4DF846711E3640D400BBF6E9 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		86FDECCA094663B3A2AC979A /* Pods-TD3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TD3.release.xcconfig"; path = "Pods/Target Support Files/Pods-TD3/Pods-TD3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BFAA9C8B805FDBA26CE4BA /* Pods_TD3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B47342F23EDFAF54C561F10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26741B0271381A9B33604F6A /* Pods_TD3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4D9B55111E2CF5E500D97C75 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +108,8 @@
 				4D9B55331E2CF5E500D97C75 /* TD3Tests */,
 				4D9B553E1E2CF5E500D97C75 /* TD3UITests */,
 				4D9B551B1E2CF5E500D97C75 /* Products */,
+				FB5D7CEDC047EE7122B58DFA /* Pods */,
+				4B47342F23EDFAF54C561F10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +136,9 @@
 				4D9B554D1E2CF6AA00D97C75 /* RemoteImageController.swift */,
 				4D9B554F1E2D181900D97C75 /* WebsitesTableTableViewController.swift */,
 				4D97DB991E2E19F300E58FAA /* MyWebViewController.swift */,
+				4DC06EFF1E363554008D74BD /* Podfile */,
+				4DF8466F1E363AFE00BBF6E9 /* PartiesTableViewController.swift */,
+				4DF846711E3640D400BBF6E9 /* Event.swift */,
 			);
 			path = TD3;
 			sourceTree = "<group>";
@@ -137,6 +161,15 @@
 			path = TD3UITests;
 			sourceTree = "<group>";
 		};
+		FB5D7CEDC047EE7122B58DFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				172F5EAD3295B2159CB55F64 /* Pods-TD3.debug.xcconfig */,
+				86FDECCA094663B3A2AC979A /* Pods-TD3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D9B55441E2CF5E500D97C75 /* Build configuration list for PBXNativeTarget "TD3" */;
 			buildPhases = (
+				7D26CB21A04F170F3328B5EA /* [CP] Check Pods Manifest.lock */,
 				4D9B55161E2CF5E500D97C75 /* Sources */,
 				4D9B55171E2CF5E500D97C75 /* Frameworks */,
 				4D9B55181E2CF5E500D97C75 /* Resources */,
+				AA4CAAF393AE7CB9E441A435 /* [CP] Embed Pods Frameworks */,
+				B2F5D2215B1B244FE01BA37D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +282,7 @@
 			files = (
 				4D9B552A1E2CF5E500D97C75 /* LaunchScreen.storyboard in Resources */,
 				4D9B55271E2CF5E500D97C75 /* Assets.xcassets in Resources */,
+				4DC06F001E363554008D74BD /* Podfile in Resources */,
 				4D9B55251E2CF5E500D97C75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,15 +303,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D26CB21A04F170F3328B5EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4CAAF393AE7CB9E441A435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TD3/Pods-TD3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F5D2215B1B244FE01BA37D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TD3/Pods-TD3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D9B55161E2CF5E500D97C75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF846721E3640D400BBF6E9 /* Event.swift in Sources */,
 				4D9B55221E2CF5E500D97C75 /* SecondViewController.swift in Sources */,
 				4D97DB9A1E2E19F300E58FAA /* MyWebViewController.swift in Sources */,
 				4D9B554E1E2CF6AA00D97C75 /* RemoteImageController.swift in Sources */,
 				4D9B551E1E2CF5E500D97C75 /* AppDelegate.swift in Sources */,
+				4DF846701E363AFE00BBF6E9 /* PartiesTableViewController.swift in Sources */,
 				4D9B55201E2CF5E500D97C75 /* FirstViewController.swift in Sources */,
 				4D9B55501E2D181900D97C75 /* WebsitesTableTableViewController.swift in Sources */,
 			);
@@ -426,6 +513,7 @@
 		};
 		4D9B55451E2CF5E500D97C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172F5EAD3295B2159CB55F64 /* Pods-TD3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TD3/Info.plist;
@@ -438,6 +526,7 @@
 		};
 		4D9B55461E2CF5E500D97C75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86FDECCA094663B3A2AC979A /* Pods-TD3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TD3/Info.plist;
