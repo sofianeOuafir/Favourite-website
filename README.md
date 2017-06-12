@@ -1,4 +1,4 @@
-<h1>favourite website</h1>
+<h1>Favourite website</h1>
 <p>Mobile application that enable to have shortcuts to your favourite websites</p>
 <h2> Libraries and components </h2>
 <ul>
